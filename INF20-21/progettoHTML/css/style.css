@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* importing fonts */
+@font-face {
+    font-family: "Raleway";
+    src: url("../resources/fonts/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family: "PTSans";
+    src: url("../resources/fonts/PTSans-Regular.ttf");
+}
+
+::selection {
+    background-color: lightsalmon;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* keeps footer down even with few content */
+}
+
+.background {
+    display: block;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: url("../resources/images/blue-wave-pattern.jpg") no-repeat center fixed;
+    background-size: cover; /* strange resizes */
+}
+
+.contentWrapper {   
+    flex: 1; /* pushes the footer down */
+}
+
+a {
+    text-decoration: none; /* Removes default underline */
+    color: inherit; /* Changes color to match normal text */
+    background-image: linear-gradient(currentColor, currentColor); /* Gradients are managed as images and we need an image-like background to do this trick */
+    background-position: 0% 100%; /* Moves the starting point down and on the left */
+    background-repeat: no-repeat; /* Otherwise the line duplicates itself to fill avaiable space (I think) */
+    background-size: 0% 1px; /* Sets the height to 1px and shrinks it to make it disappear */
+    transition: background-size .4s ease; /* Brings the line back with animation */
+}
+
+a:hover, a:focus {
+    background-size: 100% 1px;
+}
+
+p, li {
+    font-family: "PTSans", sans-serif;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-transform: capitalize;
+    padding: 5px;
+    font-size: 2.4em;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    background-color: #c2dff1;
+}
+
+header h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+article text p {
+    padding: .5em;
+}
+
+article ul.list1 {
+    list-style-type: square;
+}
+
+article text li {
+    margin: 0 1.5em;
+}
+
+article {
+    display: flex;
+    margin: 4% 10%;
+}
+
+header article {
+    margin-top: 20px;
+}
+
+footer article {
+    margin-bottom: 20px;
+}
+
+article text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #e9eef5;
+    border-radius: 15px;
+    box-shadow: 8px 6px 0px 0px #83b2d8, 16px 12px 0px 0px #6392bb  ;
+    overflow-wrap: break-word;
+    overflow: hidden; /* https://stackoverflow.com/questions/10995294/border-radius-not-working */
+}
+
+article figure {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+article img {
+    height: fit-content;
+    max-height: 300px;
+}
+
+footer p {
+    font-size: .8em;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 400px) {
+    article {
+        flex-direction: column;
+        margin: 4px 20px 18px 4px;
+    }
+
+    h1 {
+        text-transform: capitalize;
+        padding: 5px;
+        font-size: 1.8em;
+        font-family: "Raleway";
+        font-weight: bold;
+        text-align: center;
+        background-color: #c2dff1;
+    }
+    
+    header h1 {
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+    p, li {
+        font-size: 1.3em;
+    }
+
+    footer p {
+        font-size: .6em;
+    }
+}
