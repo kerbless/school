@@ -205,13 +205,47 @@
 											"height": 13,
 											"text": "+perimetro(): integer",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80Gc18ywBpFY=",
+											"_parent": {
+												"$ref": "AAAAAAF80AmA6JzwDZQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF80Gc14yv+xKI="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 410,
+											"width": 295.216796875,
+											"height": 13,
+											"text": "+getLunghezza(): integer",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80GeFIywLVVk=",
+											"_parent": {
+												"$ref": "AAAAAAF80AmA6JzwDZQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF80GeFHiwIz2c="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 425,
+											"width": 295.216796875,
+											"height": 13,
+											"text": "+getLarghezza(): integer",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 375,
 									"width": 305.216796875,
-									"height": 38
+									"height": 68
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -251,7 +285,7 @@
 							"left": 520,
 							"top": 312,
 							"width": 305.216796875,
-							"height": 101,
+							"height": 131,
 							"nameCompartment": {
 								"$ref": "AAAAAAF80AmA55zqoMA="
 							},
@@ -383,7 +417,7 @@
 											"top": 478,
 											"width": 416.62841796875,
 											"height": 13,
-											"text": "+altezza: integer",
+											"text": "-altezza: integer",
 											"horizontalAlignment": 0
 										}
 									],
@@ -520,8 +554,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 666,
-									"top": 425,
+									"left": 667,
+									"top": 438,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -541,8 +575,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 651,
-									"top": 427,
+									"left": 652,
+									"top": 438,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -562,8 +596,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 695,
-									"top": 422,
+									"left": 696,
+									"top": 439,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -581,7 +615,7 @@
 								"$ref": "AAAAAAF80EkGLyuBAb0="
 							},
 							"lineStyle": 1,
-							"points": "684:447;679:413",
+							"points": "683:447;682:443",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF80EpGmSu5EJ8="
@@ -671,6 +705,44 @@
 									"direction": "return"
 								}
 							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80Gc14yv+xKI=",
+							"_parent": {
+								"$ref": "AAAAAAF80AmA45zn2TY="
+							},
+							"name": "getLunghezza",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80GeE1ywG/cM=",
+									"_parent": {
+										"$ref": "AAAAAAF80Gc14yv+xKI="
+									},
+									"type": "integer",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80GeFHiwIz2c=",
+							"_parent": {
+								"$ref": "AAAAAAF80AmA45zn2TY="
+							},
+							"name": "getLarghezza",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80GeZhSwPPIw=",
+									"_parent": {
+										"$ref": "AAAAAAF80GeFHiwIz2c="
+									},
+									"type": "integer",
+									"direction": "return"
+								}
+							]
 						}
 					]
 				},
@@ -704,6 +776,7 @@
 								"$ref": "AAAAAAF80EkGLit/Y0Y="
 							},
 							"name": "altezza",
+							"visibility": "private",
 							"type": "integer"
 						}
 					],
