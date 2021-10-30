@@ -205,13 +205,30 @@
 											"height": 13,
 											"text": "+costo(): integer",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80I10glt7mkI=",
+											"_parent": {
+												"$ref": "AAAAAAF80IlgDVqsLOU="
+											},
+											"model": {
+												"$ref": "AAAAAAF80I10f1t4N8M="
+											},
+											"font": "Arial;13;0",
+											"left": 413,
+											"top": 250,
+											"width": 311,
+											"height": 13,
+											"text": "+getGiorni(): integer",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 408,
 									"top": 215,
 									"width": 321,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -645,6 +662,25 @@
 									"_id": "AAAAAAF80IiWlFn3CeM=",
 									"_parent": {
 										"$ref": "AAAAAAF80Ihamlnwq9k="
+									},
+									"type": "integer",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80I10f1t4N8M=",
+							"_parent": {
+								"$ref": "AAAAAAF80IIJd1mO6so="
+							},
+							"name": "getGiorni",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80I2Sr1t/kHA=",
+									"_parent": {
+										"$ref": "AAAAAAF80I10f1t4N8M="
 									},
 									"type": "integer",
 									"direction": "return"
