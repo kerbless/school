@@ -203,7 +203,7 @@
 											"top": 395,
 											"width": 223,
 											"height": 13,
-											"text": "+Atleta(nome)",
+											"text": "+Atleta(nome: String)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -254,7 +254,41 @@
 											"top": 440,
 											"width": 223,
 											"height": 13,
-											"text": "+getData(): String",
+											"text": "+getNome(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80D3l0zc6nHE=",
+											"_parent": {
+												"$ref": "AAAAAAF80AmA6JzwDZQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF80D3luzc3d6k="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 455,
+											"width": 223,
+											"height": 13,
+											"text": "+getSquadra(): String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80D4yqTdEqmY=",
+											"_parent": {
+												"$ref": "AAAAAAF80AmA6JzwDZQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF80D4yoDdBrck="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 470,
+											"width": 223,
+											"height": 13,
+											"text": "+isVisitaMedica(): boolean",
 											"horizontalAlignment": 0
 										}
 									],
@@ -262,7 +296,7 @@
 									"left": 520,
 									"top": 390,
 									"width": 233,
-									"height": 68
+									"height": 98
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -376,7 +410,7 @@
 										"$ref": "AAAAAAF80A2C+p1Hm40="
 									},
 									"name": "nome",
-									"type": ""
+									"type": "String"
 								}
 							]
 						},
@@ -402,7 +436,7 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "getData",
+							"name": "getNome",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -411,6 +445,44 @@
 										"$ref": "AAAAAAF80AyXyp0xKzc="
 									},
 									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80D3luzc3d6k=",
+							"_parent": {
+								"$ref": "AAAAAAF80AmA45zn2TY="
+							},
+							"name": "getSquadra",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80D4qMDc/MPg=",
+									"_parent": {
+										"$ref": "AAAAAAF80D3luzc3d6k="
+									},
+									"type": "String",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80D4yoDdBrck=",
+							"_parent": {
+								"$ref": "AAAAAAF80AmA45zn2TY="
+							},
+							"name": "isVisitaMedica",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80D55nTdI6iM=",
+									"_parent": {
+										"$ref": "AAAAAAF80D4yoDdBrck="
+									},
+									"type": "boolean",
 									"direction": "return"
 								}
 							]

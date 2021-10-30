@@ -48,8 +48,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -32,
-											"top": -32,
+											"left": -16,
+											"top": -16,
 											"height": 13
 										},
 										{
@@ -59,11 +59,11 @@
 												"$ref": "AAAAAAF80AmA55zqoMA="
 											},
 											"font": "Arial;13;1",
-											"left": 517,
-											"top": 311,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 319,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "Orologio"
+											"text": "ContoCorrente"
 										},
 										{
 											"_type": "LabelView",
@@ -73,8 +73,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -32,
-											"top": -32,
+											"left": -16,
+											"top": -16,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -87,16 +87,16 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -32,
-											"top": -32,
+											"left": -16,
+											"top": -16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 512,
-									"top": 304,
-									"width": 346.5908203125,
+									"left": 520,
+									"top": 312,
+									"width": 352.14501953125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF80AmA55zrvyI="
@@ -131,11 +131,11 @@
 												"$ref": "AAAAAAF80A1Ekp0752s="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 334,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 342,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "-s: integer",
+											"text": "-intestatario: String",
 											"horizontalAlignment": 0
 										},
 										{
@@ -148,11 +148,11 @@
 												"$ref": "AAAAAAF80An2x50aFlk="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 349,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 357,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "-m: integer",
+											"text": "-codice: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -165,18 +165,18 @@
 												"$ref": "AAAAAAF80AmoTZ0SuJs="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 364,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 372,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "-h: integer",
+											"text": "-saldo: float",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 512,
-									"top": 329,
-									"width": 346.5908203125,
+									"left": 520,
+									"top": 337,
+									"width": 352.14501953125,
 									"height": 53
 								},
 								{
@@ -191,23 +191,6 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAF80D+51knm15M=",
-											"_parent": {
-												"$ref": "AAAAAAF80AmA6JzwDZQ="
-											},
-											"model": {
-												"$ref": "AAAAAAF80D+5zEnjcRA="
-											},
-											"font": "Arial;13;0",
-											"left": 517,
-											"top": 387,
-											"width": 336.5908203125,
-											"height": 13,
-											"text": "+Orologio(ore: integer, minuti: integer, secondi: integer)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
 											"_id": "AAAAAAF80A2DAZ1KPJg=",
 											"_parent": {
 												"$ref": "AAAAAAF80AmA6JzwDZQ="
@@ -216,11 +199,11 @@
 												"$ref": "AAAAAAF80A2C+p1Hm40="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 402,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 395,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "+setZero()",
+											"text": "+ContoCorrente(intestatario: String, codice: int, saldo: float)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -233,11 +216,11 @@
 												"$ref": "AAAAAAF80AvZSp0jjM8="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 417,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 410,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "+correctTime(ore: integer, minuti: integer, secondi: integer)",
+											"text": "+getSaldo(): float",
 											"horizontalAlignment": 0
 										},
 										{
@@ -250,18 +233,35 @@
 												"$ref": "AAAAAAF80Awql50q0SA="
 											},
 											"font": "Arial;13;0",
-											"left": 517,
-											"top": 432,
-											"width": 336.5908203125,
+											"left": 525,
+											"top": 425,
+											"width": 342.14501953125,
 											"height": 13,
-											"text": "+getTime(): String",
+											"text": "+prelievo(float ammontare)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF80DwzHJ196+g=",
+											"_parent": {
+												"$ref": "AAAAAAF80AmA6JzwDZQ="
+											},
+											"model": {
+												"$ref": "AAAAAAF80DwzFZ16aAQ="
+											},
+											"font": "Arial;13;0",
+											"left": 525,
+											"top": 440,
+											"width": 342.14501953125,
+											"height": 13,
+											"text": "+versamento(float ammontare)",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 512,
-									"top": 382,
-									"width": 346.5908203125,
+									"left": 520,
+									"top": 390,
+									"width": 352.14501953125,
 									"height": 68
 								},
 								{
@@ -275,8 +275,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -16,
-									"top": -16,
+									"left": -8,
+									"top": -8,
 									"width": 10,
 									"height": 10
 								},
@@ -291,17 +291,17 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -16,
-									"top": -16,
+									"left": -8,
+									"top": -8,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 512,
-							"top": 304,
-							"width": 346.5908203125,
+							"left": 520,
+							"top": 312,
+							"width": 352.14501953125,
 							"height": 209,
 							"nameCompartment": {
 								"$ref": "AAAAAAF80AmA55zqoMA="
@@ -327,7 +327,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Orologio",
+					"name": "ContoCorrente",
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -335,9 +335,9 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "s",
+							"name": "intestatario",
 							"visibility": "private",
-							"type": "integer"
+							"type": "String"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -345,9 +345,9 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "m",
+							"name": "codice",
 							"visibility": "private",
-							"type": "integer"
+							"type": "int"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -355,56 +355,48 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "h",
+							"name": "saldo",
 							"visibility": "private",
-							"type": "integer"
+							"type": "float"
 						}
 					],
 					"operations": [
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAF80D+5zEnjcRA=",
-							"_parent": {
-								"$ref": "AAAAAAF80AmA45zn2TY="
-							},
-							"name": "Orologio",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80D/+V0nqAQM=",
-									"_parent": {
-										"$ref": "AAAAAAF80D+5zEnjcRA="
-									},
-									"name": "ore",
-									"type": "integer"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80D/+WEnrMp0=",
-									"_parent": {
-										"$ref": "AAAAAAF80D+5zEnjcRA="
-									},
-									"name": "minuti",
-									"type": "integer"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80D/+WEnsgLE=",
-									"_parent": {
-										"$ref": "AAAAAAF80D+5zEnjcRA="
-									},
-									"name": "secondi",
-									"type": "integer"
-								}
-							]
-						},
 						{
 							"_type": "UMLOperation",
 							"_id": "AAAAAAF80A2C+p1Hm40=",
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "setZero"
+							"name": "ContoCorrente",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80DuVf51rKb4=",
+									"_parent": {
+										"$ref": "AAAAAAF80A2C+p1Hm40="
+									},
+									"name": "intestatario",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80DuVf51s87o=",
+									"_parent": {
+										"$ref": "AAAAAAF80A2C+p1Hm40="
+									},
+									"name": "codice",
+									"type": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80DuVf51tmq0=",
+									"_parent": {
+										"$ref": "AAAAAAF80A2C+p1Hm40="
+									},
+									"name": "saldo",
+									"type": "float"
+								}
+							]
 						},
 						{
 							"_type": "UMLOperation",
@@ -412,34 +404,16 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "correctTime",
+							"name": "getSaldo",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAF80EBdnkn4PEk=",
+									"_id": "AAAAAAF80DvGmZ1zMSk=",
 									"_parent": {
 										"$ref": "AAAAAAF80AvZSp0jjM8="
 									},
-									"name": "ore",
-									"type": "integer"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80EB3q0n75qI=",
-									"_parent": {
-										"$ref": "AAAAAAF80AvZSp0jjM8="
-									},
-									"name": "minuti",
-									"type": "integer"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80EB3q0n8ifA=",
-									"_parent": {
-										"$ref": "AAAAAAF80AvZSp0jjM8="
-									},
-									"name": "secondi",
-									"type": "integer"
+									"type": "float",
+									"direction": "return"
 								}
 							]
 						},
@@ -449,16 +423,34 @@
 							"_parent": {
 								"$ref": "AAAAAAF80AmA45zn2TY="
 							},
-							"name": "getTime",
+							"name": "prelievo",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAF80DMm4J1jOLI=",
+									"_id": "AAAAAAF80DwOO512n2k=",
 									"_parent": {
 										"$ref": "AAAAAAF80Awql50q0SA="
 									},
-									"type": "String",
-									"direction": "return"
+									"name": "float ammontare"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF80DwzFZ16aAQ=",
+							"_parent": {
+								"$ref": "AAAAAAF80AmA45zn2TY="
+							},
+							"name": "versamento",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF80Dxd352GtAU=",
+									"_parent": {
+										"$ref": "AAAAAAF80DwzFZ16aAQ="
+									},
+									"name": "float ammontare",
+									"type": ""
 								}
 							]
 						}
