@@ -61,7 +61,7 @@
 											"font": "Arial;13;1",
 											"left": 525,
 											"top": 319,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "ContoCorrente"
 										},
@@ -96,7 +96,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 312,
-									"width": 352.14501953125,
+									"width": 377.44677734375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF80AmA55zrvyI="
@@ -133,7 +133,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 342,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "-intestatario: String",
 											"horizontalAlignment": 0
@@ -150,9 +150,9 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 357,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
-											"text": "-codice: int",
+											"text": "-codice: integer",
 											"horizontalAlignment": 0
 										},
 										{
@@ -167,7 +167,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 372,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "-saldo: float",
 											"horizontalAlignment": 0
@@ -176,7 +176,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 337,
-									"width": 352.14501953125,
+									"width": 377.44677734375,
 									"height": 53
 								},
 								{
@@ -201,9 +201,9 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 395,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
-											"text": "+ContoCorrente(intestatario: String, codice: int, saldo: float)",
+											"text": "+ContoCorrente(intestatario: String, codice: integer)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -218,7 +218,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 410,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "+getSaldo(): float",
 											"horizontalAlignment": 0
@@ -235,7 +235,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 425,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "+prelievo(float ammontare)",
 											"horizontalAlignment": 0
@@ -252,7 +252,7 @@
 											"font": "Arial;13;0",
 											"left": 525,
 											"top": 440,
-											"width": 342.14501953125,
+											"width": 367.44677734375,
 											"height": 13,
 											"text": "+versamento(float ammontare)",
 											"horizontalAlignment": 0
@@ -261,7 +261,7 @@
 									"font": "Arial;13;0",
 									"left": 520,
 									"top": 390,
-									"width": 352.14501953125,
+									"width": 377.44677734375,
 									"height": 68
 								},
 								{
@@ -301,7 +301,7 @@
 							"containerChangeable": true,
 							"left": 520,
 							"top": 312,
-							"width": 352.14501953125,
+							"width": 377.44677734375,
 							"height": 209,
 							"nameCompartment": {
 								"$ref": "AAAAAAF80AmA55zqoMA="
@@ -347,7 +347,7 @@
 							},
 							"name": "codice",
 							"visibility": "private",
-							"type": "int"
+							"type": "integer"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -385,16 +385,7 @@
 										"$ref": "AAAAAAF80A2C+p1Hm40="
 									},
 									"name": "codice",
-									"type": "int"
-								},
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAF80DuVf51tmq0=",
-									"_parent": {
-										"$ref": "AAAAAAF80A2C+p1Hm40="
-									},
-									"name": "saldo",
-									"type": "float"
+									"type": "integer"
 								}
 							]
 						},
@@ -431,7 +422,8 @@
 									"_parent": {
 										"$ref": "AAAAAAF80Awql50q0SA="
 									},
-									"name": "float ammontare"
+									"name": "float ammontare",
+									"type": ""
 								}
 							]
 						},
