@@ -4,14 +4,101 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 5%;
+body {
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* keeps footer down even with few content */
+    color: #12130F;
+    background-color: #fffaeb;
+    font-family: monospace;
 }
 
-figure {}
+main {
+    flex: 1;
+    /* keeps footer down even with few content */
+}
 
-image {
+img {
     height: 100%;
     width: 100%;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0.1, 0.1, 0.1, 0.1);
+    margin: 1% 2%;
+    padding: 1%
+}
+
+header figure {}
+
+header #logo {
+    max-height: 4em;
+    min-width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #008dd5;
+    font-family: raleway;
+    font-size: 3em;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+
+/* FOOTER */
+
+footer p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+    padding: 0.1% 1%;
+    background-color: #008dd5;
+    color: white;
+}
+
+
+/* SELECTION */
+
+::selection {
+    color: #262730;
+    background-color: #FF7E6B;
+}
+
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #c8c5af;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4ED1B5;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #27BB9B;
 }
