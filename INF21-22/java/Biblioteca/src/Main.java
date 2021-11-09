@@ -8,5 +8,8 @@ public class Main {
         libro2.setnCopie(1);
         DVD dvd1 = new DVD("DV001", "Columbia pictures", "Spiderman 1", "2h 1m", "action/fantasy");
         dvd1.setnCopie(1);
+
+        // vector of objects
+        Libro[] libri = new Libro[10]; // all vector elements are "null"
     }
 }
