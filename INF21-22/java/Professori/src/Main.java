@@ -5,7 +5,7 @@ public class Main {
         int N_PROF = 6;
         Scanner input = new Scanner(System.in);
         Professore[] professori = new Professore[N_PROF];
-        String nome, cognome, materia;
+        String nome, cognome;
         for (int i = 0; i < N_PROF; i++) {
             System.out.println("Inserisci i dati del prof n^" + (i+1));
             System.out.print("Nome: ");
