@@ -62,9 +62,10 @@
     </state>
     <state x="107" y="-1080" width="1089" height="672" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639219520472" />
     <state x="107" y="-1073" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1639216007884" />
-    <state x="457" y="-1003" key="#com.intellij.ide.util.MemberChooser" timestamp="1639215209715">
-      <screen x="11" y="-1080" width="1280" height="720" />
+    <state x="457" y="-1008" key="#com.intellij.ide.util.MemberChooser" timestamp="1639816716632">
+      <screen x="11" y="-1080" width="1280" height="672" />
     </state>
+    <state x="457" y="-1008" key="#com.intellij.ide.util.MemberChooser/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639816716632" />
     <state x="457" y="-1003" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1639215209715" />
     <state x="382" y="-936" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1639219519346">
       <screen x="11" y="-1080" width="1280" height="672" />
@@ -79,25 +80,43 @@
       <screen x="11" y="-1080" width="1280" height="720" />
     </state>
     <state x="432" y="-964" key="FileChooserDialogImpl/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1639214995074" />
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom" timestamp="1639220450226">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1639822866645">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.bottom/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639220450226" />
-    <state width="1237" height="161" key="GridCell.Tab.0.center" timestamp="1639220450226">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639822866645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1639822866645">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.center/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639220450226" />
-    <state width="1237" height="161" key="GridCell.Tab.0.left" timestamp="1639220450226">
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639822866645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1639822866645">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.left/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639220450226" />
-    <state width="1237" height="161" key="GridCell.Tab.0.right" timestamp="1639220450226">
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639822866645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1639822866645">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="161" key="GridCell.Tab.0.right/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639220450226" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639822866645" />
+    <state x="200" y="-1036" width="902" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1639817265236">
+      <screen x="11" y="-1080" width="1280" height="672" />
+    </state>
+    <state x="200" y="-1036" width="902" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639817265236" />
     <state x="447" y="-996" key="refactoring.ChangeSignatureDialog" timestamp="1639218175823">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
     <state x="447" y="-996" key="refactoring.ChangeSignatureDialog/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639218175823" />
+    <state x="314" y="-1080" width="672" height="678" key="search.everywhere.popup" timestamp="1639821916887">
+      <screen x="11" y="-1080" width="1280" height="672" />
+    </state>
+    <state x="314" y="-1080" width="672" height="678" key="search.everywhere.popup/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639821916887" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
