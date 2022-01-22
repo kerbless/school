@@ -1,59 +1,94 @@
 public class Distributore {
+    private int caffe = 10;
+    private int cappuccino = 10;
     private boolean acceso;
-    private int caffe;
-    private int cappuccini;
-    private int gettoni;
-    private int credito;
+    private int credito = 0;
+    private int totGettoni = 0;
 
-    public Distributore() {
-        acceso = false;
-        caffe = 10;
-        cappuccini = 10;
-        gettoni = 0;
-        credito = 0;
+    public Distributore(){}
+
+    public void accensioneSpegnimento()
+    {
+        acceso=!acceso;
+        /* if (acceso) acceso = false; else acceso = true; */
     }
 
-    public void stato() {
-        if (acceso) System.out.println("[i] Distributore acceso con: credito = " + credito + ", caffe' = " + caffe + ", cappuccini = " + cappuccini + ", gettoniera = " + gettoni + ".");
-        else System.out.println("[i] Distributore spento");
-    }
-    public void accendi() {
-        acceso = true;
-    }
-    public void inserisci() {
-        if (!acceso) System.out.println("[!] Il distributore è spento");
-        else if (gettoni + credito > 12) System.out.println("[!] Scatola gettoni piena, usa il tasto restituzione se vuoi recuperare l'ultimo gettone inserito");
-        else credito++;
-    }
-    public void prendi_caffe() {
-        if (!acceso) System.out.println("[!] Il distributore è spento");
-        else if (credito < 1) System.out.println("[!] Credito insufficiente");
-        else {
-            gettoni++;
-            caffe--;
-            credito--;
+    /** Inserisce un gettone nel distributore;
+     *  valore di ritorno:
+     *      0 - se l'operazione va a buon fine;
+     *      1 - se la gettoniera è piena e il gettone non può essere accettato;
+     *      100 - se la macchina è spenta
+     */
+    public int inserimentoGettone(){
+        if (acceso){
+            if (totGettoni<12){
+                credito++;
+                totGettoni++;
+                return 0;
+            }else
+                return 1;
         }
-    }
-    public void prendi_cappuccino() {
-        if (!acceso) System.out.println("[!] Il distributore è spento");
-        else if (credito < 2) System.out.println("[!] Credito insufficiente");
-        else {
-            gettoni += 2;
-            cappuccini--;
-            credito -= 2;
-        }
-    }
-    public void restituisci() {
-        if (!acceso) System.out.println("[!] Il distributore è spento");
-        else if (credito == 1 && gettoni == 12) credito--;
-        else System.out.println("Puoi chiedere una restituzione solo nel caso in cui non sia possibile prendere un cappuccino");
-    }
-    public void svuota_gettoniera() {
-        gettoni = 0;
-    }
-    public void ricarica() {
-        caffe = 10;
-        cappuccini = 10;
+        return 100;
     }
 
+    public int getCredito(){
+        return credito;
+    }
+
+    public int prendiCaffe(){
+        if (acceso)
+            if (caffe>0 && credito>=1){
+                credito--;
+                caffe--;
+                return 0;
+            }
+            else{
+                if (caffe==0)
+                    return 1; //non c'è caffè
+                else
+                    return 2; //non c'è credito
+            }
+        else
+            return 100;
+    }
+
+    public int prendiCappuccino(){
+        if (acceso)
+            if (cappuccino>0 && credito>=2){
+                credito-=2;
+                cappuccino--;
+                return 0;
+            }
+            else{
+                if (cappuccino==0)
+                    return 1; //non c'è cappuccino
+                else
+                    return 2; //non c'è credito
+            }
+        else
+            return 100;
+    }
+
+    public int restituisciCredito(){
+        if (acceso){
+            credito=0;
+            return 0;
+        }else
+            return 100;
+    }
+
+    public int svuotaERicarica(){
+        if (acceso){
+            totGettoni=0;
+            caffe=10;
+            cappuccino=10;
+            return 0;
+        }else
+            return 100;
+    }
+
+    @Override
+    public String toString(){
+        return "STATO [[ Accesa: " + acceso + " - N.caffè: " + caffe + " - N.cappuccini: " + cappuccino + " - Credito: " + credito + " - Gettoniera : " + totGettoni+ "]]";
+    }
 }
