@@ -4,6 +4,7 @@ public class Distributore {
     private boolean acceso;
     private int credito = 0;
     private int totGettoni = 0;
+    
 
     public Distributore(){}
 
