@@ -28,6 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -81,22 +82,22 @@
       <screen x="11" y="-1080" width="1280" height="720" />
     </state>
     <state x="432" y="-964" key="FileChooserDialogImpl/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1639214995074" />
-    <state width="1237" height="245" key="GridCell.Tab.0.bottom" timestamp="1639823089097">
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom" timestamp="1639823367564">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="245" key="GridCell.Tab.0.bottom/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823089097" />
-    <state width="1237" height="245" key="GridCell.Tab.0.center" timestamp="1639823089097">
+    <state width="1237" height="245" key="GridCell.Tab.0.bottom/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823367564" />
+    <state width="1237" height="245" key="GridCell.Tab.0.center" timestamp="1639823367564">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="245" key="GridCell.Tab.0.center/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823089097" />
-    <state width="1237" height="245" key="GridCell.Tab.0.left" timestamp="1639823089097">
+    <state width="1237" height="245" key="GridCell.Tab.0.center/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823367564" />
+    <state width="1237" height="245" key="GridCell.Tab.0.left" timestamp="1639823367564">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="245" key="GridCell.Tab.0.left/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823089097" />
-    <state width="1237" height="245" key="GridCell.Tab.0.right" timestamp="1639823089097">
+    <state width="1237" height="245" key="GridCell.Tab.0.left/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823367564" />
+    <state width="1237" height="245" key="GridCell.Tab.0.right" timestamp="1639823367564">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
-    <state width="1237" height="245" key="GridCell.Tab.0.right/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823089097" />
+    <state width="1237" height="245" key="GridCell.Tab.0.right/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639823367564" />
     <state x="153" y="-1080" key="SettingsEditor" timestamp="1639823210373">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
@@ -105,6 +106,10 @@
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
     <state x="200" y="-1036" width="902" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.672/11.-1080.1280.672@11.-1080.1280.672" timestamp="1639817265236" />
+    <state x="91" y="0" key="new project wizard" timestamp="1639988766686">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.672@0.0.1280.672" timestamp="1639988766686" />
     <state x="447" y="-996" key="refactoring.ChangeSignatureDialog" timestamp="1639218175823">
       <screen x="11" y="-1080" width="1280" height="672" />
     </state>
