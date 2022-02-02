@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="distributore.jDistributore">
-  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="jDistributore">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="500" height="550"/>
     </constraints>
-    <properties/>
-    <border type="none"/>
-    <children/>
+    <properties>
+      <font name="Raleway Medium" size="12"/>
+      <preferredSize width="300" height="500"/>
+      <toolTipText value="Interfaccia del distributore"/>
+    </properties>
+    <border type="empty" title="DISTRIBUTORE" title-justification="2">
+      <font name="Raleway ExtraBold" size="16"/>
+    </border>
+    <children>
+      <component id="e55a6" class="javax.swing.JButton" binding="OnOffButton">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Accendi"/>
+          <toolTipText value="Spenge ed accende il distributore"/>
+        </properties>
+      </component>
+      <component id="d72ab" class="javax.swing.JLabel" binding="Status">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Il distributore è spento"/>
+        </properties>
+      </component>
+      <grid id="e8276" binding="StatusPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Stato">
+          <font name="Anonymous Pro" size="16"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="7c915" binding="ControlPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Controlli">
+          <font name="Anonymous Pro" size="16"/>
+        </border>
+        <children/>
+      </grid>
+    </children>
   </grid>
 </form>

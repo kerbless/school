@@ -8,11 +8,17 @@ public class Distributore {
 
     public Distributore(){}
 
-    public void accensioneSpegnimento()
-    {
-        acceso=!acceso;
-        /* if (acceso) acceso = false; else acceso = true; */
+    /**
+     * sets the boolean variable "acceso" true if it's false and false if it's true.
+     */
+    public void accensioneSpegnimento() {
+        acceso=!acceso; /* if (acceso) acceso = false; else acceso = true; */
     }
+
+    public boolean isAcceso() {
+        return acceso;
+    }
+
 
     /** Inserisce un gettone nel distributore;
      *  valore di ritorno:

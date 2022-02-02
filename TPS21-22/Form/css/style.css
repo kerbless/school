@@ -13,8 +13,9 @@ a {
 }
 
 a:hover {
+    font-style: italic;
     text-decoration: underline;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 h1 {
@@ -77,6 +78,26 @@ article:hover {
 article header {
     padding: 1%;
     border-radius: 5px;
+}
+
+form {
+    display: table;
+}
+
+form .formdiv {
+    display: table-row;
+}
+
+form label:first-child {
+    display: table-cell;
+    padding-right: 5px;
+    text-align: right;
+}
+
+form input,
+select {
+    display: table-cell;
+    margin: 0px 5px 0px 5px
 }
 
 footer {
