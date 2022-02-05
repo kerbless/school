@@ -8,6 +8,13 @@ public class jDistributore {
     private JLabel Status;
     private JPanel StatusPanel;
     private JPanel ControlPanel;
+    private JButton inserisciGettoneButton;
+    private JLabel Gettoni;
+    private JButton prendiCaffèButton;
+    private JLabel Ordine;
+    private JButton prendiCappuccinoButton;
+    private JButton restituisciCreditoButton;
+    private JButton svuotaERicaricaButton;
     Distributore d = new Distributore();
 
     public jDistributore() {
@@ -26,6 +33,47 @@ public class jDistributore {
                     Status.setText("Il distributore è SPENTO");
                     OnOffButton.setText("Accendi");
                 }
+            }
+        });
+        inserisciGettoneButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int r = d.inserimentoGettone();
+                if(r == 0) Gettoni.setText("Gettoni: " + d.getCredito());
+                else if(r == 1) Gettoni.setText("GETTONIERA PIENA");
+            }
+        });
+        prendiCaffèButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int r = d.prendiCaffe();
+                if(r == 0) Ordine.setText("Caffè consegnato (" + d.getCaffe() + " rimanenti)");
+                else if(r == 1) Ordine.setText("Caffè esauriti");
+                else if(r == 2) Ordine.setText("Credito insufficiente");
+                Gettoni.setText("Gettoni: " + d.getCredito());
+            }
+        });
+        prendiCappuccinoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int r = d.prendiCappuccino();
+                if(r == 0) Ordine.setText("Cappuccino consegnato");
+                else if(r == 1) Ordine.setText("Cappuccini esauriti");
+                else if(r == 2) Ordine.setText("Credito insufficiente");
+                Gettoni.setText("Gettoni: " + d.getCredito());
+            }
+        });
+        restituisciCreditoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                d.restituisciCredito();
+                Gettoni.setText("Gettoni: " + d.getCredito());
+            }
+        });
+        svuotaERicaricaButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                d.svuotaERicarica();
             }
         });
     }

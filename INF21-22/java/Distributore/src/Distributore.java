@@ -14,11 +14,11 @@ public class Distributore {
     public void accensioneSpegnimento() {
         acceso=!acceso; /* if (acceso) acceso = false; else acceso = true; */
     }
-
     public boolean isAcceso() {
         return acceso;
     }
-
+    public int getCaffe() { return caffe;}
+    public int getCappuccino() { return cappuccino; }
 
     /** Inserisce un gettone nel distributore;
      *  valore di ritorno:
