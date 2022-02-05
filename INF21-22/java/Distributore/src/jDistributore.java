@@ -18,6 +18,11 @@ public class jDistributore {
     Distributore d = new Distributore();
 
     public jDistributore() {
+        inserisciGettoneButton.setEnabled(false);
+        prendiCaffèButton.setEnabled(false);
+        prendiCappuccinoButton.setEnabled(false);
+        restituisciCreditoButton.setEnabled(false);
+        svuotaERicaricaButton.setEnabled(false);
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel"); //Windows Look and feel
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {}
@@ -28,10 +33,20 @@ public class jDistributore {
                 if(d.isAcceso()) {
                     Status.setText("Il distributore è ACCESO");
                     OnOffButton.setText("Spegni");
+                    inserisciGettoneButton.setEnabled(d.isAcceso());
+                    prendiCaffèButton.setEnabled(d.isAcceso());
+                    prendiCappuccinoButton.setEnabled(d.isAcceso());
+                    restituisciCreditoButton.setEnabled(d.isAcceso());
+                    svuotaERicaricaButton.setEnabled(d.isAcceso());
                 }
                 else {
                     Status.setText("Il distributore è SPENTO");
                     OnOffButton.setText("Accendi");
+                    inserisciGettoneButton.setEnabled(d.isAcceso());
+                    prendiCaffèButton.setEnabled(d.isAcceso());
+                    prendiCappuccinoButton.setEnabled(d.isAcceso());
+                    restituisciCreditoButton.setEnabled(d.isAcceso());
+                    svuotaERicaricaButton.setEnabled(d.isAcceso());
                 }
             }
         });
@@ -74,6 +89,7 @@ public class jDistributore {
             @Override
             public void actionPerformed(ActionEvent e) {
                 d.svuotaERicarica();
+                Gettoni.setText("Gettoni: " + d.getCredito());
             }
         });
     }
