@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="utf-8">
     <title>Sito</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script defer src="js/javascript.js"></script>
 </head>
 
 <body>
@@ -15,7 +16,6 @@
         <a href="index.html">Home</a>
         <a href="form.html">Form</a>
     </nav>
-
     <main>
         <section>
             <article>
@@ -84,8 +84,10 @@
                         <label for="EmailCheck">Spunta per ricevere aggiornamenti sulla posta</label>
                     </div>
                     <div class="formdiv">
-                        <input type="submit" value="send">
+                        <button type="submit" form="form">send</button>
+                        <button id="checkbutton" type="button" form="form">check</button>
                     </div>
+
                 </form>
             </article>
         </section>
