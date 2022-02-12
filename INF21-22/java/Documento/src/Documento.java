@@ -17,8 +17,6 @@ public class Documento {
     }
 
     /**
-     *
-     * @param paragrafo
      * @return false if operation fails (vector full)
      */
     public boolean aggiungiParagrafo(Paragrafo paragrafo) {

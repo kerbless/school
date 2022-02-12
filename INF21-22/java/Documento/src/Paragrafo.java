@@ -16,8 +16,6 @@ public class Paragrafo {
     }
 
     /**
-     *
-     * @param frase
      * @return false if operation fails (vector full)
      */
     public boolean aggiungiFrase(Frase frase) {
