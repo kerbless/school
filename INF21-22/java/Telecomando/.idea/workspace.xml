@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff228972-a401-470c-9b8a-9a0600dae8df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\blubu\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.7660.26\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="25JxZMZpknPFxLfEYW4KIYw3L9O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Distributore/src/jDistributore.java" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\blubu\Documents\Coding\school\INF21-22\java\Telecomando\src\resources\images" />
+      <recent name="C:\Users\blubu\Documents\Coding\school\INF21-22\java\Telecomando\src\Resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Remote" />
+      <module name="Telecomando" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff228972-a401-470c-9b8a-9a0600dae8df" name="Default Changelist" comment="" />
+      <created>1645259044939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645259044939</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="107" y="-1073" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645259690090">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="107" y="-1073" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645259690090" />
+    <state x="457" y="-1018" key="#com.intellij.ide.util.MemberChooser" timestamp="1645264193275">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="457" y="-1018" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264193275" />
+    <state x="382" y="-929" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1645259688755">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="382" y="-929" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645259688755" />
+    <state x="382" y="-929" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1645260662518">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="382" y="-929" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645260662518" />
+    <state x="432" y="-964" key="FileChooserDialogImpl" timestamp="1645261528739">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="432" y="-964" key="FileChooserDialogImpl/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645261528739" />
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1645264282139">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.bottom/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282139" />
+    <state width="1237" height="220" key="GridCell.Tab.0.center" timestamp="1645264282139">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.center/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282139" />
+    <state width="1237" height="220" key="GridCell.Tab.0.left" timestamp="1645264282139">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.left/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282139" />
+    <state width="1237" height="220" key="GridCell.Tab.0.right" timestamp="1645264282139">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.0.right/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282139" />
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom" timestamp="1645264282140">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.bottom/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282140" />
+    <state width="1237" height="220" key="GridCell.Tab.1.center" timestamp="1645264282140">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.center/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282140" />
+    <state width="1237" height="220" key="GridCell.Tab.1.left" timestamp="1645264282140">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.left/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282140" />
+    <state width="1237" height="220" key="GridCell.Tab.1.right" timestamp="1645264282140">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645264282140" />
+    <state x="423" y="-906" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1645259630705">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="423" y="-906" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645259630705" />
+    <state x="424" y="-839" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1645260670556">
+      <screen x="11" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="424" y="-839" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1645260670556" />
+  </component>
+</project>
