@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sito raccoglitore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Fibonacci</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <header>
+                    <h1>FORM</h1>
+                    <p class="subtitle">From di prova</p>
+                </header>
+                <form id="form" autocomplete="on" name="form">
+                    <div class="formdiv">
+                        <label for="Cognome">Cognome</label>
+                        <input type="text" form="form" id="Cognome" name="Cognome" placeholder="Rossi" autofocus required>
+                    </div>
+                    <div class="formdiv">
+                        <label for="Nome">Nome</label>
+                        <input type="text" form="form" id="Nome" name="Nome" placeholder="Francesco" required>
+                    </div>
+                    <div class="formdiv">
+                        <label for="Regione">Residenza</label>
+                        <select form="form" id="Regione" name="Regione" required>
+                            <option value="Abruzzo">Abruzzo</option>
+                            <option value="Basilicata">Basilicata</option>
+                            <option value="Calabria">Calabria</option>
+                            <option value="Campania">Campania</option>
+                            <option value="Emilia-Romagna">Emilia-Romagna</option>
+                            <option value="Friuli-Venezia-Giulia">Friuli-Venezia-Giulia</option>
+                            <option value="Lazio">Lazio</option>
+                            <option value="Liguria">Liguria</option>
+                            <option value="Lombardia">Lombardia</option>
+                            <option value="Marche">Marche</option>
+                            <option value="Molise">Molise</option>
+                            <option value="Piemonte">Piemonte</option>
+                            <option value="Puglia">Puglia</option>
+                            <option value="Sardegna">Sardegna</option>
+                            <option value="Sicilia">Sicilia</option>
+                            <option selected value="Toscana">Toscana</option>
+                            <option value="Trentino-Alto-Adige">Trentino-Alto-Adige</option>
+                            <option value="Umbria">Umbria</option>
+                            <option value="Valle d'Aosta">Valle d'Aosta</option>
+                            <option value="Veneto">Veneto</option>
+                        </select>
+                    </div>
+                    <div class="formdiv">
+                        <label for="Sesso">Sesso biologico</label>
+                        <input type="radio" form="form" id="Uomo" name="Sesso" required>
+                        <label for="Uomo">Uomo</label>
+                        <input type="radio" form="form" id="Donna" name="Sesso" required>
+                        <label for="Donna">Donna</label>
+                        <input type="radio" form="form" id="Altro" name="Sesso" required>
+                        <label for="Altro">Altro</label>
+                    </div>
+                    <div class="formdiv">
+                        <label for="Sport">Sport preferito</label>
+                        <input type="text" list="Sports" form="form" id="Sport" name="Sport" placeholder="Seleziona o scrivi" required>
+                        <datalist id="Sports">
+                                <option value="Calcio">Calcio</option>
+                                <option value="Tennis">Tennis</option>
+                                <option value="Basket">Basket</option>
+                                <option value="Hockey pista">Hockey pista</option>
+                                <option value="Ciclismo">Ciclismo</option>
+                        </datalist>
+                    </div>
+                    <div class="formdiv">
+                        <label for="EmailCheck">Email</label>
+                        <input type="email" form="form" id="Email" name="Email" placeholder="email@provider.com">
+                        <input type="checkbox" form="form" id="EmailCheck" name="EmailCheck">
+                        <label for="EmailCheck">Spunta per ricevere aggiornamenti sulla posta</label>
+                    </div>
+                    <div class="formdiv">
+                        <button type="submit" form="form">send</button>
+                        <button id="checkbutton" type="button" form="form">check</button>
+                    </div>
+
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Polo Tecnologico "Manetti-Porciatti" - Via Brigate Partigiane 19 58100 Grosseto</p>
+    </footer>
+</body>
