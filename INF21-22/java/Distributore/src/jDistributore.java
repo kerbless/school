@@ -23,6 +23,7 @@ public class jDistributore {
         prendiCappuccinoButton.setEnabled(false);
         restituisciCreditoButton.setEnabled(false);
         svuotaERicaricaButton.setEnabled(false);
+
         try {
             UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel"); //Windows Look and feel
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {}
@@ -100,6 +101,7 @@ public class jDistributore {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
+
     }
 
     private void createUIComponents() {
