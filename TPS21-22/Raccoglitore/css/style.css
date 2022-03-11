@@ -1,9 +1,12 @@
+/* PALETTE: https://coolors.co/130102-a3cce6-a9aed3-aba3cc-fc8566-fe9462-feb46a-fdf9ec */
+
 * {
     /* reset values for margin and padding for everything */
     margin: 0;
     padding: 0;
     /* with this, the size of an element takes into account the border and padding */
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -19,7 +22,7 @@ h1 {
 }
 
 body>header {
-    background-color: rgb(185, 197, 252);
+    background-color: #feb46a;
     border-radius: 5px;
     margin: 1%;
     display: flex;
@@ -38,7 +41,16 @@ a {
     text-decoration: none;
 }
 
+.link::after {
+    content: " →";
+}
+
+.clickable {
+    cursor: pointer;
+}
+
 body {
+    background-color: #fdf9ec;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -49,7 +61,7 @@ nav {
     margin: 1%;
     display: flex;
     justify-content: space-around;
-    border: rgb(185, 197, 252) solid 2px;
+    border: #aba3cc solid 2px;
     border-radius: 5px;
 }
 
@@ -65,14 +77,14 @@ article {
     flex: 1;
     margin: 1%;
     padding: 1.5%;
-    background-color: rgb(185, 197, 252);
+    background-color: #a3cce6;
     border-radius: 5px;
     transition: box-shadow .5s, background .5s;
 }
 
 article:hover {
     transition: box-shadow .7s, background .7s;
-    background-color: rgb(169, 185, 253);
+    background-color: #a9aed3;
     box-shadow: rgba(100, 100, 111, 0.315) 0px 7px 29px 0px;
 }
 
@@ -104,7 +116,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(185, 197, 252);
+    background-color: #fe9462;
     border-radius: 5px;
 }
 
