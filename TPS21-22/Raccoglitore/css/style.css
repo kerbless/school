@@ -43,6 +43,7 @@ a {
 
 .link::after {
     content: " →";
+    transition: content .7s;
 }
 
 .clickable {
