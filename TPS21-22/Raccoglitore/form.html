@@ -2,23 +2,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sito raccoglitore</title>
+    <title>Form</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/form.js"></script>
-    <script defer src="js/back.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Form</h1>
-        <p class="subtitle clickable" id="back">&#8617; Indietro</p>
+        <h1>Blu Burroni</h1>
+        <p class="subtitle">Laboratorio di TPS - 4BIA</p>
+        <p class="subtitle">Pagina home per la raccolta dei progetti web dell'a.s. 2021-2022</p>
     </header>
+    <nav>
+        <a class="link" href="home.html">Home</a>
+        <a class="link current" href="form.html">Form</a>
+        <a class="link" href="fibonacci.html">Fibonacci</a>
+        <a class="link" href="multipli.html">Multipli</a>
+    </nav>
     <main>
         <section>
             <article>
                 <header>
                     <h1>FORM</h1>
-                    <p class="subtitle">From di prova</p>
+                    <p class="subtitle">Form con controllo dati in javascript</p>
                 </header>
                 <form id="form" autocomplete="on" name="form">
                     <div class="formdiv">
@@ -76,15 +82,19 @@
                     </div>
                     <div class="formdiv">
                         <label for="EmailCheck">Email</label>
-                        <input type="email" form="form" id="Email" name="Email" placeholder="email@provider.com">
+                        <input type="email" form="form" id="Email" name="Email" placeholder="email@provider.com" required>
                         <input type="checkbox" form="form" id="EmailCheck" name="EmailCheck">
                         <label for="EmailCheck">Spunta per ricevere aggiornamenti sulla posta</label>
+                    </div>
+                    <div class="formdiv">
+                        <label for="Privacy">Privacy</label>
+                        <input type="checkbox" form="form" id="Privacy" name="Privacy" required>
+                        <label for="Privacy">Spunta per accettare la privacy</label>
                     </div>
                     <div class="formdiv">
                         <button type="submit" form="form">send</button>
                         <button id="checkbutton" type="button" form="form">check</button>
                     </div>
-
                 </form>
             </article>
         </section>

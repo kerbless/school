@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="utf-8">
     <title>Fibonacci</title>
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/fib.js"></script>
-    <script defer src="js/back.js"></script>
 </head>
 
 <body>
-
     <header>
-        <h1>Fibonacci</h1>
-        <p class="subtitle clickable" id="back">&#8617; Indietro</p>
+        <h1>Blu Burroni</h1>
+        <p class="subtitle">Laboratorio di TPS - 4BIA</p>
+        <p class="subtitle">Pagina home per la raccolta dei progetti web dell'a.s. 2021-2022</p>
     </header>
+    <nav>
+        <a class="link" href="home.html">Home</a>
+        <a class="link" href="form.html">Form</a>
+        <a class="link current" href="fibonacci.html">Fibonacci</a>
+        <a class="link" href="multipli.html">Multipli</a>
+    </nav>
     <main>
         <section>
-            <article>
+            <article class="clickable" id="fibonacci">
+                <header>
+                    <h1>Fibonacci</h1>
+                    <p class="subtitle">Esercizio su fibonacci calcolato in javascript</p>
+                </header>
                 <form name="dati">
-                    n = <input type="text" id="n" size="5" />
-                    <button id="fibonacci" type="button">Calcola</button>
+                    Visualizza numero di fibonacci in posizione = <input type="text" id="n" size="5" />
+                    <button id="calc" type="button">Calcola</button>
                     <div id="risultato"></div>
                 </form>
             </article>
         </section>
     </main>
     <footer>
-        <p>Sito raccoglitore - Burroni Blu</p>
+        <p>Polo Tecnologico "Manetti-Porciatti" - Via Brigate Partigiane 19 58100 Grosseto</p>
     </footer>
 </body>

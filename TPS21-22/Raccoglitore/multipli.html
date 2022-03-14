@@ -2,24 +2,33 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sito raccoglitore</title>
+    <title>Multipli</title>
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/back.js"></script>
+    <script defer src="js/multipli.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Multipli</h1>
-        <p class="subtitle clickable" id="back">&#8617; Indietro</p>
+        <h1>Blu Burroni</h1>
+        <p class="subtitle">Laboratorio di TPS - 4BIA</p>
+        <p class="subtitle">Pagina home per la raccolta dei progetti web dell'a.s. 2021-2022</p>
     </header>
+    <nav>
+        <a class="link" href="home.html">Home</a>
+        <a class="link" href="form.html">Form</a>
+        <a class="link" href="fibonacci.html">Fibonacci</a>
+        <a class="link current" href="multipli.html">Multipli</a>
+    </nav>
     <main>
         <section>
             <article>
+                <header>
+                    <h1>MULTIPLI</h1>
+                    <p class="subtitle">Visualizza i multipli di n minori di x</p>
+                </header>
                 <form name="dati">
-                    n = <input type="text" id="n" size="5" />
-                    <button id="fibonacci" type="button">Calcola</button>
+                    <button id="calc" type="button">Calcola</button> n = <input type="text" id="n" size="5" /> x = <input type="text" id="x" size="5" />
                     <div id="risultato"></div>
-
                 </form>
             </article>
         </section>
