@@ -3,7 +3,7 @@
 <head>
     <title>Sito</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script defer src="js/javascript.js"></script>
 </head>
 
 <body>
@@ -14,33 +14,42 @@
         <p class="subtitle">Pagina home per la raccolta dei progetti web dell'a.s. 2021-2022</p>
     </header>
     <nav>
-        <a class="link" href="index.html">Index</a>
+        <a class="link current" href="home.html">Home</a>
         <a class="link" href="form.html">Form</a>
         <a class="link" href="fibonacci.html">Fibonacci</a>
         <a class="link" href="multipli.html">Multipli</a>
     </nav>
     <main>
         <section>
-            <article>
+            <article class="clickable" id="home">
                 <header>
-                    <h1>articolo 1</h1>
-                    <p class="subtitle">Sottotitolo</p>
+                    <h1>Home</h1>
+                    <p class="subtitle">Pagina HTML</p>
                 </header>
-                <p>Testo dell'articolo, lorem ipsum, lorem ipsum dolor sit amet</p>
+                <p>Pagina home di esempio strutturata con sezione e articoli simile a questa index page con un menù di navigazione più classico (No Javascript)</p>
             </article>
-            <article>
+            <article class="clickable" id="form">
                 <header>
-                    <h1>articolo 2</h1>
-                    <p class="subtitle">Sottotitolo</p>
+                    <h1>Form</h1>
+                    <p class="subtitle">Pagina HTML</p>
                 </header>
-                <p>Testo dell'articolo, lorem ipsum, lorem ipsum dolor sit amet</p>
+                <p>Form con controllo dati in javascript (nome, cognome....)</p>
             </article>
-            <article>
+        </section>
+        <section>
+            <article class="clickable" id="fibonacci">
                 <header>
-                    <h1>articolo 3</h1>
-                    <p class="subtitle">Sottotitolo</p>
+                    <h1>Fibonacci</h1>
+                    <p class="subtitle">Esercizio Javascript</p>
                 </header>
-                <p>Testo dell'articolo, lorem ipsum, lorem ipsum dolor sit amet</p>
+                <p>Esercizio sul fibonacci calcolato in javascript</p>
+            </article>
+            <article class="clickable" id="multipli">
+                <header>
+                    <h1>Multipli</h1>
+                    <p class="subtitle">Esercizio Javascript</p>
+                </header>
+                <p>Visualizza i multipli di un numero n (preso in input) e minore di un numero x (preso anch'esso in input)</p>
             </article>
         </section>
     </main>
