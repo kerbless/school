@@ -88,13 +88,11 @@ article {
 }
 
 article:hover {
-    transition: box-shadow .7s, background .7s;
     background-color: #86badb;
     box-shadow: rgba(100, 100, 111, 0.315) 0px 7px 29px 0px;
 }
 
 article:hover.clickable {
-    transition: box-shadow .7s, background .7s;
     background-color: #a9aed3;
     box-shadow: rgba(100, 100, 111, 0.315) 0px 7px 29px 0px;
 }
