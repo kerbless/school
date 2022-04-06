@@ -1,12 +1,17 @@
 public class Vassoio {
     int unDato;
+    boolean empty = true;
 
-    synchronized int prendi() {
+    int prendi() {
+        while(empty);
         System.out.println(Thread.currentThread() + " Preso: " + unDato);
+        empty = true;
         return unDato;
     }
-    synchronized void metti(int d) {
+    void metti(int d) {
+        while(!empty);
         unDato = d;
         System.out.println(Thread.currentThread() + " Depositato: " + d);
+        empty = false;
     }
 }
