@@ -69,6 +69,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="420" y="-978" key="FileChooserDialogImpl" timestamp="1651826203838">
+      <screen x="0" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="420" y="-978" key="FileChooserDialogImpl/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1651826203838" />
     <state width="1237" height="220" key="GridCell.Tab.0.bottom" timestamp="1650454179811">
       <screen x="11" y="-1080" width="1280" height="720" />
     </state>
@@ -105,5 +109,9 @@
       <screen x="11" y="-1080" width="1280" height="720" />
     </state>
     <state width="1237" height="220" key="GridCell.Tab.1.right/0.0.1280.720/11.-1080.1280.720@11.-1080.1280.720" timestamp="1650454179811" />
+    <state x="90" y="-1080" key="new project wizard" timestamp="1651826218990">
+      <screen x="0" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="90" y="-1080" key="new project wizard/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1651826218990" />
   </component>
 </project>
