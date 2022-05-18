@@ -75,10 +75,10 @@
       <screen x="0" y="-1080" width="1280" height="720" />
     </state>
     <state x="446" y="-1013" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1651828032725" />
-    <state x="421" y="-965" key="FileChooserDialogImpl" timestamp="1651828046647">
+    <state x="421" y="-965" key="FileChooserDialogImpl" timestamp="1652263285227">
       <screen x="0" y="-1080" width="1280" height="720" />
     </state>
-    <state x="421" y="-965" key="FileChooserDialogImpl/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1651828046647" />
+    <state x="421" y="-965" key="FileChooserDialogImpl/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1652263285227" />
     <state width="1237" height="202" key="GridCell.Tab.0.bottom" timestamp="1651829979461">
       <screen x="0" y="-1080" width="1280" height="720" />
     </state>
@@ -95,5 +95,9 @@
       <screen x="0" y="-1080" width="1280" height="720" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.0.right/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1651829979461" />
+    <state x="91" y="-1080" key="new project wizard" timestamp="1652263401731">
+      <screen x="0" y="-1080" width="1280" height="720" />
+    </state>
+    <state x="91" y="-1080" key="new project wizard/0.0.1280.720/0.-1080.1280.720@0.-1080.1280.720" timestamp="1652263401731" />
   </component>
 </project>
